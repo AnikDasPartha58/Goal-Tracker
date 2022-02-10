@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".About">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:orientation="vertical"
+       app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/rounded_corner_fortext"
+           android:padding="20dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:text="Version"
+               android:textColor="@color/black"
+               android:textSize="20sp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:text="1.0.0"
+               android:textColor="@color/black"
+               android:textSize="15sp" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/rounded_corner_fortext"
+           android:padding="20dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:text="Contact support"
+               android:textColor="@color/black"
+               android:textSize="20sp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:textColor="@color/black"
+               android:text="Report a bug or request a feature"
+               android:textSize="15sp" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:textColor="@color/red2"
+               android:text="anikdaspartha58@gmail.com"
+               android:textSize="15sp" />
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/rounded_corner_fortext"
+           android:padding="20dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:text="About this app"
+               android:textColor="@color/black"
+               android:textSize="20sp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/roboto"
+               android:textColor="@color/black"
+               android:text="This is a goal tracking app. This is app is especially for those who are trying to build a new habit. We set a goal but often lost track of how much we have progress. So this app is for tracking your goal progress. In this app, we set a 30 days record with a cross mark hidden under each day. When we finish each day's goal we simply click that day to put a cross mark on that day. In this way, you can save the record of each day of your goal"
+               android:textSize="15sp" />
+
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

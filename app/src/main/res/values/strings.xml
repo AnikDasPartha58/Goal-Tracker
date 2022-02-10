@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Goal Tracker</string>
+    <string name="day1">Day1</string>
+    <string name="day2">Day2</string>
+    <string name="day3">Day3</string>
+    <string name="day4">Day4</string>
+    <string name="day5">Day5</string>
+    <string name="day6">Day6</string>
+    <string name="day7">Day7</string>
+    <string name="day8">Day8</string>
+    <string name="day9">Day9</string>
+    <string name="day10">Day10</string>
+    <string name="day11">Day11</string>
+    <string name="day12">Day12</string>
+    <string name="day13">Day13</string>
+    <string name="day14">Day14</string>
+    <string name="day15">Day15</string>
+    <string name="day16">Day16</string>
+    <string name="day17">Day17</string>
+    <string name="day18">Day18</string>
+    <string name="day19">Day19</string>
+    <string name="day20">Day20</string>
+    <string name="day21">Day21</string>
+    <string name="day22">Day22</string>
+    <string name="day23">Day23</string>
+    <string name="day24">Day24</string>
+    <string name="day25">Day25</string>
+    <string name="day26">Day26</string>
+    <string name="day27">Day27</string>
+    <string name="day28">Day28</string>
+    <string name="day29">Day29</string>
+    <string name="day30">Day30</string>
+</resources>

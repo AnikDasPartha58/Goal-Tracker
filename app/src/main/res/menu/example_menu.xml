@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/guide"
+        android:title="Guide"
+        app:showAsAction="never"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"
+        android:visible="true">
+    </item>
+
+
+
+
+</menu>
